@@ -30,7 +30,7 @@ public class TextGraph {
     private Graph<String, DefaultWeightedEdge> graph;
 
     public TextGraph() {
-        graph = new DirectedWeightedMultigraph<>(DefaultWeightedEdge.class);
+        graph =  new DirectedWeightedMultigraph<>(DefaultWeightedEdge.class);
     }
 
     public void readTextFile(String filePath) throws IOException {
