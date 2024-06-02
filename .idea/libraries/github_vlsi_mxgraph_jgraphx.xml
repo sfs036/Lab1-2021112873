@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="github.vlsi.mxgraph.jgraphx" type="repository">
+    <properties maven-id="com.github.vlsi.mxgraph:jgraphx:4.0.6" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/vlsi/mxgraph/jgraphx/4.0.6/jgraphx-4.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

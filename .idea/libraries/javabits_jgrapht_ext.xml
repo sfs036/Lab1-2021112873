@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="javabits.jgrapht.ext" type="repository">
+    <properties maven-id="org.javabits.jgrapht:jgrapht-ext:0.9.3" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/javabits/jgrapht/jgrapht-ext/0.9.3/jgrapht-ext-0.9.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/javabits/jgrapht/jgrapht-core/0.9.3/jgrapht-core-0.9.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/tinyjee/jgraphx/jgraphx/2.0.0.1/jgraphx-2.0.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/jgraph/jgraph/5.13.0.0/jgraph-5.13.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
