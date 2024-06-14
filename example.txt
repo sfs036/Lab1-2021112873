@@ -1,1 +1,8 @@
-Explore new worlds and seek new adventures. Discover new paths and seek new experiences. Every journey begins with courage and new discoveries. Explore new horizons and find new challenges. Seek new opportunities and venture into new worlds. Together, we explore and discover new life. Each step brings new knowledge and new understanding. Brave explorers seek new adventures and find new paths.
+To explore strange new worlds,
+To seek out new life and new civilizations
+<<<<<<< HEAD
+Another one
+=======
+Hello world
+>>>>>>> C4
+Hello world

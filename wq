@@ -1,0 +1,30 @@
+*   [33mcommit 1b1a28f4bbf7ce9f27ce01f1386f8d4e1957c522[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32m2021112873[m[33m, [m[1;31morigin/2021112873[m[33m, [m[1;32mB1[m[33m)[m
+[31m|[m[32m\[m  Merge: 834ba8b 828a4c5
+[31m|[m [32m|[m Author: Frozen <1258198182@qq.com>
+[31m|[m [32m|[m Date:   Sun Jun 2 22:13:17 2024 +0800
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     Resolve conflicts between C4 and B1
+[31m|[m [32m|[m 
+[31m|[m * [33mcommit 828a4c595e5dc5ce692932f013b5019e97b77c89[m[33m ([m[1;32mC4[m[33m)[m
+[31m|[m [32m|[m Author: Frozen <1258198182@qq.com>
+[31m|[m [32m|[m Date:   Sun Jun 2 21:59:07 2024 +0800
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     Modify files on C4
+[31m|[m [32m|[m 
+* [32m|[m [33mcommit 834ba8b052e5688b4e5deeec9cbcd30ee3bd70b4[m
+[32m|[m[32m/[m  Author: Frozen <1258198182@qq.com>
+[32m|[m   Date:   Sun Jun 2 22:00:35 2024 +0800
+[32m|[m   
+[32m|[m       Modify files on B1 differently
+[32m|[m 
+* [33mcommit 5c8c7e8064c57687127e122ceb61f2215cff9610[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+[32m|[m Author: Frozen <1258198182@qq.com>
+[32m|[m Date:   Sun Jun 2 21:23:35 2024 +0800
+[32m|[m 
+[32m|[m     Second commit with modifications
+[32m|[m 
+* [33mcommit f4a703bfa96b6be1eff88271000f6cd0609a731e[m
+  Author: Frozen <1258198182@qq.com>
+  Date:   Sun Jun 2 21:17:02 2024 +0800
+  
+      Initial commit

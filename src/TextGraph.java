@@ -39,7 +39,6 @@ public class TextGraph {
         while ((line = reader.readLine()) != null) {
             processLine(line);
         }
-     
         reader.close();
     }
 
@@ -50,7 +49,7 @@ public class TextGraph {
         }
     }
 
-    private void addEdge(String from, String to) {
+    void addEdge(String from, String to) {
         graph.addVertex(from);
         graph.addVertex(to);
         DefaultWeightedEdge edge = graph.addEdge(from, to);
@@ -143,18 +142,18 @@ public class TextGraph {
         return result.toString();
     }
 
-    private String getRandomBridgeWord(String word1, String word2) {
-        if (!graph.containsVertex(word1)) return null;
+    String getRandomBridgeWord(String word1, String word2) {
+        if (!graph.containsVertex(word1)) return null;//检查图中是否存在word1
         List<String> bridgeWords = new ArrayList<>();
-        for (DefaultWeightedEdge edge1 : graph.outgoingEdgesOf(word1)) {
+        for (DefaultWeightedEdge edge1 : graph.outgoingEdgesOf(word1)) {//遍历word1的出边
             String middle = graph.getEdgeTarget(edge1);
-            if (graph.containsEdge(middle, word2)) {
+            if (graph.containsEdge(middle, word2)) {//检查是否存在桥接词
                 bridgeWords.add(middle);
             }
         }
         if (bridgeWords.isEmpty()) return null;
         Random rand = new Random();
-        return bridgeWords.get(rand.nextInt(bridgeWords.size()));
+        return bridgeWords.get(rand.nextInt(bridgeWords.size()));//随机选择一个桥接词,返回桥接词
     }
 
     public String calcShortestPath(String word1, String word2) {
